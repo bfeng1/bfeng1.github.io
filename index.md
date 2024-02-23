@@ -8,7 +8,7 @@
 <img src="images/thumbnail_images/running_analysis.png?raw=true"/>
 
 ---
-[Data Science Salary Analysis](/data_analysis_p1)
+[Data Science Salary Analysis](/data_analysis_p2)
 <img src="images/thumbnail_images/data_science_salary_analysis.png?raw=true"/>
 
 ---
