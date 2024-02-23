@@ -6,29 +6,30 @@ We have a running dataset that was collected using our proposed markerless gait 
 * compare the ankle angle measurements from two systems
 * create visualizations for both systems and angles
 
-### 1. Suggest hypotheses about the causes of observed phenomena
+### 1. Smooth the data points collected by the markerless system using [Savitzky–Golay filter](https://en.wikipedia.org/wiki/Savitzky%E2%80%93Golay_filter)
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+Since the data points collected by the markerless system have a lot more noise compared to the marker-based system. To remove some of the noise, we have tried to apply a filter and this process has helped us get much better results.
 
-```javascript
-if (isAwesome){
-  return true
-}
+```python
+test_our['filtered our sys knee angle'] = savgol_filter(test_our['right knee angle'], 25, 2)
+test_our['filtered our sys ankle angle'] = savgol_filter(test_our['right ankle angle'], 25, 2)
 ```
 
-### 2. Assess assumptions on which statistical inference will be based
+### 2. Resample the data samples collected by the marker-based system
+During the data collection process, the marker-based system has a higher frequency than the marker-less system. To make the comparison accurate, we have decided to under-sample the data points collected by the marker-based system. 
 
-```javascript
-if (isAwesome){
-  return true
-}
+```python
+from sklearn.utils import resample
+
+# resample the golden system dataset, and then smooth the data with a low-pass filter
+resample_data = resample(test_gold, n_samples = 366, replace = False, random_state = 0).sort_index()
 ```
 
-### 3. Support the selection of appropriate statistical tools and techniques
+### 3. Compare the knee angles and the ankle angles obtained in two systems
 
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
-### 4. Provide a basis for further data collection through surveys or experiments
+### 4. Conclusion
 
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
 
