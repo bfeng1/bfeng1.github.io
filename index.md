@@ -2,10 +2,10 @@
 
 ---
 
-### Category Name 1 
+### Data Analysis
 
-[Project 1 Title](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Gait Analysis Performance Comparison](/sample_page)
+<img src="images/thumbnail_images/running_analysis.png?raw=true"/>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
