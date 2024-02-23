@@ -4,11 +4,11 @@
 
 ### Data Analysis
 
-[Gait Analysis Performance Comparison](/sample_page)
+[Gait Analysis Performance Comparison](/data_analysis_p1)
 <img src="images/thumbnail_images/running_analysis.png?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
+[Data Science Salary Analysis](/data_analysis_p1)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
