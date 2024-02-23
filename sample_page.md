@@ -27,10 +27,13 @@ resample_data = resample(test_gold, n_samples = 366, replace = False, random_sta
 
 ### 3. Compare the knee angles and the ankle angles obtained in two systems
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/thumbnail_images/running_analysis.png?raw=true"/>
 
 ### 4. Conclusion
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+* Knee angle values measured by our system obtained a MAE of 11.07% and a RMSE of 15.59%;
+* Ankle angle values measured by our system obtained a MAE of 18.94% and a RMSE of 25.45%;
+* Applying a low pass filter did not change the significance of our system measurement, but it is very helpful to remove the system noise to give a smooth plot;
+* The knee angle measured by our system is more accurate compared to the ankle angle measurements. The reason is that OpenPose does not perform well with foot key points detection. Since we calculate the ankle angle using the big toe estimation, the accuracy for the ankle angle measurement can be effected. 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+For more details see [Kaggle - Running Analysis](https://www.kaggle.com/code/binfeng2021/running-analysis).
