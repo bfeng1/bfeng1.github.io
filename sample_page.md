@@ -1,6 +1,10 @@
-## This can be your internal website page / project page
+## Data Analysis Project 1: Gait Analysis Performance Comparison
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Project description:** 
+We have a running dataset that was collected using our proposed markerless gait analysis system, and another dataset was collected simultaneously by Qualisys(a marker-based gait analysis system that is the standard of the current market). We want to compare the accuracy of our system using the Qualisys system as the golden rule and find the areas of improvement. The main objectives for this analysis are:
+* compare the knee angle measurements from two systems
+* compare the ankle angle measurements from two systems
+* create visualizations for both systems and angles
 
 ### 1. Suggest hypotheses about the causes of observed phenomena
 
