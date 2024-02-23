@@ -9,7 +9,7 @@
 
 ---
 [Data Science Salary Analysis](/data_analysis_p1)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/thumbnail_images/data_science_salary_analysis.png?raw=true"/>
 
 ---
 [Project 3 Title](http://example.com/)
