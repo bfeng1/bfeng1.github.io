@@ -12,14 +12,12 @@ This project will contain three main parts with focuses on EDA and feature engin
 
 ### 1. Exploratory Data Analysis
 
-Since the data points collected by the markerless system have a lot more noise compared to the marker-based system. To remove some of the noise, we have tried to apply a filter and this process has helped us get much better results.
+Understand the features related to the house prices and explore the potential issues with those features that might need further clearing or processing. 
 
-```python
-test_our['filtered our sys knee angle'] = savgol_filter(test_our['right knee angle'], 25, 2)
-test_our['filtered our sys ankle angle'] = savgol_filter(test_our['right ankle angle'], 25, 2)
-```
+<img src="images/thumbnail_images/house_price_prediction.png?raw=true"/>
 
-### 2. Resample the data samples collected by the marker-based system
+### 2. Feature Engineering
+
 During the data collection process, the marker-based system has a higher frequency than the marker-less system. To make the comparison accurate, we have decided to under-sample the data points collected by the marker-based system. 
 
 ```python
@@ -31,7 +29,7 @@ resample_data = resample(test_gold, n_samples = 366, replace = False, random_sta
 
 ### 3. Compare the knee angles and the ankle angles obtained in two systems
 
-<img src="images/thumbnail_images/running_analysis.png?raw=true"/>
+
 
 ### 4. Conclusion
 
