@@ -56,5 +56,5 @@ This exercise has mainly focused on EDA and feature engineering practices. After
 
 We can improve the performance by further hyperparameters tuning, instead of using default values for the model.
 
-For more details see [Kaggle - Running Analysis](https://www.kaggle.com/code/binfeng2021/house-price-prediction-eda-feature-engineering).
+For more details see [Kaggle - House Price Prediction](https://www.kaggle.com/code/binfeng2021/house-price-prediction-eda-feature-engineering).
 
