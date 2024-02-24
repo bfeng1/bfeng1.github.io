@@ -14,8 +14,8 @@
 ---
 ### Machine Learning
 
-[House Price Prediction-EDA & Feature Engineering](/data_analysis_p2)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[House Price Prediction-EDA & Feature Engineering](/machine_learning_p1)
+<img src="images/thumbnail_images/house_price_prediction.png?raw=true"/>
 
 ---
 
