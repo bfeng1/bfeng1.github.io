@@ -12,14 +12,14 @@
 <img src="images/thumbnail_images/data_science_salary_analysis.png?raw=true"/>
 
 ---
-### Data Analysis
+### Machine Learning
 
 [House Price Prediction-EDA & Feature Engineering](/data_analysis_p2)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 
-### Category Name 2
+### Other projects & publications
 
 - [Project 1 Title](http://example.com/)
 - [Project 2 Title](http://example.com/)
