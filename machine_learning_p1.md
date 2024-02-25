@@ -1,9 +1,7 @@
-## House Price Prediction-EDA & Feature Engineering
+## House Price Prediction-Model Selection
 
 **Project description:** 
-Among all versions of the American dream that are out there, one of the most frequently appeared terms would-be homeowner. For many people, owning a home is a big deal not only financially, but in the whole life journey. However, it is not an easy process to obtain a house that fits your personal and financial needs. One of the major factors to consider would be the price of the house.
-
-The goal of this project is to develop a tool to estimate house prices using some basic information that can be easily accessed. Of course, the estimation cannot be always accurate due to many other factors that can play a big part in the prices, but the home buyer can at least have a good starting point for the price negotiation process.
+This project aims to practice regression model development skills using structured datasets. 
 
 This project will contain three main parts with focuses on EDA and feature engineering:
 * Exploratory Data Analysis (EDA)
