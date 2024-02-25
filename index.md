@@ -14,7 +14,12 @@
 ---
 ### Machine Learning
 
-[House Price Prediction-EDA & Feature Engineering](/machine_learning_p1)
+#### Model Selection Focus
+[House Price Prediction - Model Selection](/machine_learning_p1)
+<img src="images/thumbnail_images/house_price_prediction.png?raw=true"/>
+
+#### EDA & Feature Engineering Focus
+[House Price Prediction - EDA & Feature Engineering](/machine_learning_p1)
 <img src="images/thumbnail_images/house_price_prediction.png?raw=true"/>
 
 ---
