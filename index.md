@@ -16,10 +16,10 @@
 
 #### Model Selection Focus
 [House Price Prediction - Model Selection](/machine_learning_p1)
-<img src="images/thumbnail_images/house_price_prediction.png?raw=true"/>
+<img src="images/thumbnail_images/house_price_prediction_model_selection.drawio.png?raw=true"/>
 
 #### EDA & Feature Engineering Focus
-[House Price Prediction - EDA & Feature Engineering](/machine_learning_p1)
+[House Price Prediction - EDA & Feature Engineering](/machine_learning_p3)
 <img src="images/thumbnail_images/house_price_prediction.png?raw=true"/>
 
 ---
