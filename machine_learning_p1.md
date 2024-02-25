@@ -1,59 +1,96 @@
 ## House Price Prediction-Model Selection
 
 **Project description:** 
-This project aims to practice regression model development skills using structured datasets. 
 
-This project will contain three main parts with focuses on EDA and feature engineering:
-* Exploratory Data Analysis (EDA)
-* Feature Engineering
-* Model development
+Using a given house-related dataset, develop a regression model to predict the house prices using the provided features. 
 
-### 1. Exploratory Data Analysis
+This project aims to practice regression model development skills using structured datasets. This project has a main focus on experiencing different regress models and comparing the performance, to obtain the highest performance on the results. 
+
+This project has tried out the following regression models:
+* Linear Regression
+* GLM
+* Lasso
+* SVM Regression
+* Random forest
+* XGboost
+* Boost
+
+### 1. Exploratory Data Analysis & Data Cleaning
 
 Understand the features related to the house prices and explore the potential issues with those features that might need further clearing or processing. 
 
-<img src="images/thumbnail_images/house_price_prediction.png?raw=true"/>
+Here are performed data cleaning steps:
+1. Removing outliers
+2. Imputate missing values
+3. Change some numerical variables that are supposed to be categorical
+4. Fix skewness of variables
 
-### 2. Feature Engineering
+<img src="images/thumbnail_images/house_price_prediction_model_selection.drawio.png?raw=true"/>
 
-To address the issues of features we have found during the EDA process and improve the model performance, some further data cleaning and preprocessing are necessary. 
+ 
+### 2. Model Building
 
-* First, drop the samples that do not contain much valuable information
-* Filling the missing values for bedroom and bathroom columns:
-  1. Find out the median values for bedroom/bathroom counts using bathroom/bedroom or zip code as a group
-  2. Fill the missing values for bedroom or bathroom with median values
-* Fill in missing values for house size and acre lot
-* Convert feature types
-  
-### 3. Model Building
+1. Develop different regression models to make the prediction, and obtain its performance:
 
-1. Develop a baseline model using the median home price for each zip code. In case there are some missing zip codes in the testing set, we will fill them with median home prices for all areas.
-2. Built a random forest model and compare the performance
+I have used the RMSE as the metrics to determine the performance:
+
+```python
+n_folds = 5
+def rmsle_cv(model, name):
+    kf = KFold(n_folds, shuffle = True, random_state = 42).get_n_splits(train_X)
+    rmse = np.sqrt(-cross_val_score(model, train_X.values, train_y.values, scoring = "neg_mean_squared_error", cv = kf))
+    print('score for the model {} is {} ({})'.format(name, round(rmse.mean(),4), round(rmse.std(),4)))
+    return rmse.mean()
+```
+With the provided function, we can generate all RMSE scores for all provided models as following:
+```
+[(Pipeline(steps=[('standardscaler', StandardScaler()),
+                  ('lasso', Lasso(alpha=0.0005, random_state=1))]),
+  0.138540903420309,
+  'Lasso Regression'),
+ (Pipeline(steps=[('standardscaler', StandardScaler()),
+                  ('randomforestregressor',
+                   RandomForestRegressor(max_depth=35, random_state=0))]),
+  0.1489204951346239,
+  'Random Forest Regressor'),
+ (XGBRegressor(base_score=None, booster=None, colsample_bylevel=None,
+               colsample_bynode=None, colsample_bytree=0.4603,
+               enable_categorical=False, gamma=0.0468, gpu_id=None,
+               importance_type=None, interaction_constraints=None,
+               learning_rate=0.05, max_delta_step=None, max_depth=3,
+               min_child_weight=1.7817, missing=nan, monotone_constraints=None,
+               n_estimators=100, n_jobs=None, nthread=-1, num_parallel_tree=None,
+               predictor=None, random_state=None, randome_state=7,
+               reg_alpha=0.464, reg_lambda=0.8571, scale_pos_weight=None,
+               silent=1, subsample=0.5213, tree_method=None,
+               validate_parameters=None, ...),
+  0.16832474491753882,
+  'XGBoost'),
+ (Pipeline(steps=[('standardscaler', StandardScaler()),
+                  ('svr', SVR(epsilon=0.2))]),
+  0.22148051312875766,
+  'Support Vector Regression'),
+ (Pipeline(steps=[('standardscaler', StandardScaler()),
+                  ('ridge', Ridge(alpha=0.002))]),
+  0.22274294684680757,
+  'Ridge Regression'),
+ (Pipeline(steps=[('standardscaler', StandardScaler()),
+                  ('linearregression', LinearRegression())]),
+  0.22605354393768406,
+  'Linear Regression')]
+```
+
+By comparing the results, the best performance model is 
 
 ```
-Baseline performance:
-{'MAE': 477345.5724341369,
- 'MSE': 7138874827616.381,
- 'R2-Score': 0.07159109108370909}
-
-Model performance:
-{'MAE': 38292.631562224946,
- 'MSE': 193723909889.47775,
- 'R2-Score': 0.9748062533446128}
-```
-The comparison between two performance:
-```
-MAE improvement: -91.98%
-MSE improvement: -97.29%
-R2-Score improvement: 1261.63%
+Pipeline(steps=[('standardscaler', StandardScaler()),
+                ('lasso', Lasso(alpha=0.0005, random_state=1))])
 ```
 
 ### 4. Conclusion
 
-This exercise has mainly focused on EDA and feature engineering practices. After cleaned and preprocessing the given dataset, we then built a basic random forest model to estimate the house price. As we can see from the final results, we can obtain a pretty decent performance.
+In summary, this project aimed to create a high-performance regression model to forecast house prices using given features. I've had the chance to explore different models, learning their upsides and downsides along the way. It's been a learning experience that's improved my skills and understanding of predictive modeling.
 
-We can improve the performance by further hyperparameters tuning, instead of using default values for the model.
-
-For more details see [Kaggle - House Price Prediction](https://www.kaggle.com/code/binfeng2021/house-price-prediction-eda-feature-engineering).
+For more details see [Kaggle - (Structured Data project) House Price Prediction](https://www.kaggle.com/code/binfeng2021/structured-data-project-house-price-prediction).
 
 
