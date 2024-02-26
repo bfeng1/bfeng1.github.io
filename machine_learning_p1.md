@@ -2,9 +2,7 @@
 
 **Project description:** 
 
-Using a given house-related dataset, develop a regression model to predict the house prices using the provided features. 
-
-This project aims to practice regression model development skills using structured datasets. This project has a main focus on experiencing different regress models and comparing the performance, to obtain the highest performance on the results. 
+This project focuses on utilizing machine learning regression models to predict house prices based on provided features. We will build and evaluate several different models to determine their effectiveness in accurately forecasting housing prices. By comparing the performance of various algorithms, we aim to identify the most reliable method for predicting real estate values. This project offers a professional exploration of predictive modeling techniques applied to the real estate domain, providing valuable insights into the factors influencing house prices. 
 
 This project has tried out the following regression models:
 * Linear Regression
@@ -23,7 +21,7 @@ Here are performed data cleaning steps:
 1. Removing outliers
 2. Imputate missing values
 3. Change some numerical variables that are supposed to be categorical
-4. Fix skewness of variables
+4. Fix the skewness of variables
 
 <img src="images/thumbnail_images/house_price_prediction_model_selection.drawio.png?raw=true"/>
 
@@ -87,7 +85,7 @@ Pipeline(steps=[('standardscaler', StandardScaler()),
                 ('lasso', Lasso(alpha=0.0005, random_state=1))])
 ```
 
-### 4. Conclusion
+### 3. Conclusion
 
 In summary, this project aimed to create a high-performance regression model to forecast house prices using given features. I've had the chance to explore different models, learning their upsides and downsides along the way. It's been a learning experience that's improved my skills and understanding of predictive modeling.
 
