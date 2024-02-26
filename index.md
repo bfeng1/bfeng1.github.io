@@ -29,11 +29,12 @@
 ---
 
 ### Other projects & publications
+#### Projects
+- [Gait Analysis - bad Jump Detection](https://github.com/bfeng1/Jump-Classification-Project/)
+- [Disaster Tweets Detection](https://github.com/bfeng1/Disaster-Tweets-Detection/)
+- [Spam Detection](https://www.kaggle.com/code/binfeng2021/spam-detection-deep-learning-project/)
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+#### Publications
+- [Marker-less motion capture system using OpenPose](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12101/121010B/Marker-less-motion-capture-system-using-OpenPose/10.1117/12.2619059.short/)
 
 ---
