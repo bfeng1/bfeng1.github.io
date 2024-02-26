@@ -1,7 +1,9 @@
 ## Credit Risk Prediction & Model Explainability
 
 **Project description:** 
+This project centers around constructing a classification model to forecast credit risk based on supplied features. Our main focus will be on interpreting complex model predictions using permutation importance and SHAP (SHapley Additive exPlanations) importance techniques. By employing these methods, we aim to gain deeper insights into the factors influencing credit risk assessment. This project offers a concise yet effective exploration of how advanced interpretability techniques can enhance our understanding of complex machine learning models in the context of credit risk prediction.
 
+Agenda:
 * Perform EDA to understand what features could indicate the risk of loan default
 * Build a classification model to predict the potential default loans
 * Use grid search for hyperparameter tuning to achieve the best performance on the random forest tree model.
@@ -82,10 +84,10 @@ higher personal income (person_income) shows a smaller chance of loan default.
 A person's annual income, employment history length, loan grade, and credit history length have a negative relationship with the risk of loan default. The higher the annual income, the longer the employment length, the higher the loan grade or longer credit history a person has, the less likely a loan default might happen for that person.
 The loan's interest rate and loan percent income have a positive relationship with the risk of loan default. The higher a loan's interest rate or higher the loan percent income ratio is, the loan will have a higher risk of loan default.
 A person's age and loan amount do not seem to have a strong correlation with the potential loan default risk.
-In addition, there are other factors that can differentiate a person with a higher risk of loan default and the one with lower risk:
-Having a home or mortgage could indicate a lower loan default risk compared to the ones who rent;
-Different types of loans could associate different levels of loan default risks;
-Having a default on file could indicate a higher loan default risk compared to the ones without any default on files.
+In addition, other factors can differentiate a person with a higher risk of loan default and the one with lower risk:
+* Having a home or mortgage could indicate a lower loan default risk compared to the ones who rent;
+* Different types of loans could associate different levels of loan default risks;
+* Having a default on file could indicate a higher loan default risk compared to the ones without any default on files.
 
 For more details see [Kaggle - Credit Risk Prediction & Model Explainability](https://www.kaggle.com/code/binfeng2021/credit-risk-prediction-model-explainability#Main-Takeaway-from-a-business-perspectie).
 
