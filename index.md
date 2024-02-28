@@ -1,16 +1,4 @@
 ## Portfolio
-
----
-
-### Data Analysis
-
-[Gait Analysis Performance Comparison](/data_analysis_p1)
-<img src="images/thumbnail_images/running_analysis.png?raw=true"/>
-
----
-[Data Science Salary Analysis](/data_analysis_p2)
-<img src="images/thumbnail_images/data_science_salary_analysis.png?raw=true"/>
-
 ---
 ### Machine Learning
 
@@ -25,6 +13,15 @@
 #### EDA & Feature Engineering Focus
 [House Price Prediction - EDA & Feature Engineering](/machine_learning_p3)
 <img src="images/thumbnail_images/house_price_prediction.png?raw=true"/>
+---
+### Data Analysis
+
+[Gait Analysis Performance Comparison](/data_analysis_p1)
+<img src="images/thumbnail_images/running_analysis.png?raw=true"/>
+
+---
+[Data Science Salary Analysis](/data_analysis_p2)
+<img src="images/thumbnail_images/data_science_salary_analysis.png?raw=true"/>
 
 ---
 
