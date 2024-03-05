@@ -38,7 +38,7 @@ To address the issues of features we have found during the EDA process and impro
 <img src="images/thumbnail_images/ml_p1_figure1.png?raw=true"/>
 
 3. In the comparison, we can see that random forest regression has significantly better results compared to others. So we will fine-tune the hyperparameters to pursue a better performance. 
-<img src="images/thumbnail_images/ml_p1_figure2.PNG?raw=true"/>
+<img src="images/thumbnail_images/ml_p1_figure2.png?raw=true"/>
 
 4. Finally, we will use the model to predict the house price on the testing data that we have separated prior, here is the final result we obtained:
 
