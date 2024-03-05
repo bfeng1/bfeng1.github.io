@@ -50,7 +50,7 @@ R2-Score on testing data: 0.9059097971404966
 
 ### 4. Conclusion
 
-Throughout the project, we have performed exploration data analysis to understand the dataset and the relationship between given features and the house price. We aimed to create a model that can predict house prices with only provided features. As we can see from the final results, we can obtain a pretty decent performance using the random forest regression model on the unseen data. 
+Throughout the project, we have performed exploration data analysis to understand the dataset and the relationship between given features and the house price. Then, we cleaned and preprocessed the dataset. Lastly, We aimed to create a model that can predict house prices with only the provided features. As we can see from the final results, we can obtain a pretty decent performance using the random forest regression model on the unseen data. 
 
 #### Limitation of this project
 
@@ -58,5 +58,5 @@ Throughout the project, we have performed exploration data analysis to understan
 2. We have only tried some linear models and a random forest model, to discover potentially better results, other ML models, such as decision trees, or SVM models, or some neural networks can be tested and compared as well. 
 3. Because of limited computation power, I did not run a frid search with many different hyperparameter options. But that can be done and potentially improve the performance further if we can try more combinations of hyperparameters.  
 
-For more details see [Kaggle - House Price Prediction](https://www.kaggle.com/code/binfeng2021/house-price-prediction-eda-feature-engineering).
+For more details see [Kaggle - House Price Prediction](https://www.kaggle.com/code/binfeng2021/regression-problem-house-price-prediction).
 
