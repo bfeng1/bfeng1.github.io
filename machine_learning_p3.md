@@ -5,10 +5,13 @@ Among all versions of the American dream that are out there, one of the most fre
 
 The goal of this project is to develop a tool to estimate house prices using some basic information that can be easily accessed. Of course, the estimation cannot be always accurate due to many other factors that can play a big part in the prices, but the home buyer can at least have a good starting point for the price negotiation process.
 
-This project will contain three main parts with focuses on EDA and feature engineering:
+This project will contain three main parts:
+
 * Exploratory Data Analysis (EDA)
 * Feature Engineering
 * Model development
+
+We will explore the different models and compare their performances. Once we select a model, we will fine-tune the hyperparameters to achieve the best results possible. 
 
 ### 1. Exploratory Data Analysis
 
