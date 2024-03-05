@@ -2,18 +2,19 @@
 
 **Project description:** 
 
-This project focuses on utilizing machine learning regression models to predict house prices based on provided features. We will build and evaluate several different models to determine their effectiveness in accurately forecasting housing prices. By comparing the performance of various algorithms, we aim to identify the most reliable method for predicting real estate values. This project offers a professional exploration of predictive modeling techniques applied to the real estate domain, providing valuable insights into the factors influencing house prices. 
+Among all versions of the American dream that are out there, one of the most frequently appeared terms would-be homeowner. For many people, owning a home is a big deal not only financially, but in the whole life journey. However, it is not an easy process to obtain a house that fits your personal and financial needs. One of the major factors to consider would be the price of the house.
 
-This project has tried out the following regression models:
-* Linear Regression
-* GLM
-* Lasso
-* SVM Regression
-* Random forest
-* XGboost
-* Boost
+The goal of this project is to develop a tool to estimate house prices using some basic information that can be easily accessed. Of course, the estimation cannot be always accurate due to many other factors that can play a big part in the prices, but the home buyer can at least have a good starting point for the price negotiation process.
 
-### 1. Exploratory Data Analysis & Data Cleaning
+This project will contain three main parts:
+
+* Exploratory Data Analysis (EDA)
+* Feature Engineering
+* Model development
+
+We will explore the different models and compare their performances. Once we select a model, we will fine-tune the hyperparameters to achieve the best results possible. 
+
+### 1. Exploratory Data Analysis
 
 Understand the features related to the house prices and explore the potential issues with those features that might need further clearing or processing. 
 
