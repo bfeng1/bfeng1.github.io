@@ -33,31 +33,21 @@ To address the issues of features we have found during the EDA process and impro
 ### 3. Model Building
 
 1. Develop a baseline model using the median home price for each zip code. In case there are some missing zip codes in the testing set, we will fill them with median home prices for all areas.
-2. Built a random forest model and compare the performance
+2. Built some machine learning models and compared their performances. The ML models I have tried are linear regression, ridge regression, lasso regression, and random forest regression models. The evaluation metrics used are mean absolute error (MAE), mean squared error (MSE), and r2 score. 
 
-```
-Baseline performance:
-{'MAE': 477345.5724341369,
- 'MSE': 7138874827616.381,
- 'R2-Score': 0.07159109108370909}
+<img src="images/thumbnail_images/ml_p1_figure1.png?raw=true"/>
 
-Model performance:
-{'MAE': 38292.631562224946,
- 'MSE': 193723909889.47775,
- 'R2-Score': 0.9748062533446128}
-```
-The comparison between two performance:
-```
-MAE improvement: -91.98%
-MSE improvement: -97.29%
-R2-Score improvement: 1261.63%
-```
+In the comparison, we can see that random forest regression has significantly better results compared to others. So we will fine-tune the hyperparameters to pursue a better performance. 
 
 ### 4. Conclusion
 
-This exercise has mainly focused on EDA and feature engineering practices. After cleaned and preprocessing the given dataset, we then built a basic random forest model to estimate the house price. As we can see from the final results, we can obtain a pretty decent performance.
+This exercise has mainly focused on EDA and feature engineering practices. After cleaning and preprocessing the given dataset, we then built some machine learning models to estimate the house price. As we can see from the final results, we can obtain a pretty decent performance using the random forest regression model. 
 
-We can improve the performance by further hyperparameters tuning, instead of using default values for the model.
+#### Limitation of this project
+
+1. The dataset we used does not include every state or city in the USA, and most of the samples are collected in New York, New Jersey, Massachusetts, and Connecticut. So for some locations, we do not have sufficient data samples collected for the model to learn.
+2. We have only tried some linear models and a random forest model, to discover potentially better results, other ML models, such as decision trees, or SVM models, or some neural networks can be tested and compared as well. 
+3. Because of limited computation power, I did not run a frid search with many different hyperparameter options. But that can be done and potentially improve the performance further if we can try more combinations of hyperparameters.  
 
 For more details see [Kaggle - House Price Prediction](https://www.kaggle.com/code/binfeng2021/house-price-prediction-eda-feature-engineering).
 
