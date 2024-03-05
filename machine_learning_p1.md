@@ -50,7 +50,7 @@ R2-Score on testing data: 0.9059097971404966
 
 ### 4. Conclusion
 
-This exercise has mainly focused on EDA and feature engineering practices. After cleaning and preprocessing the given dataset, we then built some machine learning models to estimate the house price. As we can see from the final results, we can obtain a pretty decent performance using the random forest regression model. 
+Throughout the project, we have performed exploration data analysis to understand the dataset and the relationship between given features and the house price. We aimed to create a model that can predict house prices with only provided features. As we can see from the final results, we can obtain a pretty decent performance using the random forest regression model on the unseen data. 
 
 #### Limitation of this project
 
