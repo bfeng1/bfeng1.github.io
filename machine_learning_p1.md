@@ -43,9 +43,9 @@ To address the issues of features we have found during the EDA process and impro
 4. Finally, we will use the model to predict the house price on the testing data that we have separated prior, here is the final result we obtained:
 
 ```
-MAE on testing data: 155547.9295472031
-MSE on testing data: 402488888311.29456
-R2-Score on testing data: 0.8765497100711512
+MAE on testing data: 152845.7492622322
+MSE on testing data: 835146288093.7261
+R2-Score on testing data: 0.9059097971404966
 ```
 
 ### 4. Conclusion
