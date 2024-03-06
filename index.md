@@ -2,7 +2,7 @@
 ---
 ### Machine Learning
 
-[House Price Prediction - EDA & Feature Engineering](/machine_learning_p1)
+[Regression Problem: House Price Prediction](/machine_learning_p1)
 <img src="images/thumbnail_images/house_price_prediction.png?raw=true"/>
 
 [Credit Risk Prediction & Model Explainability](/machine_learning_p2)
