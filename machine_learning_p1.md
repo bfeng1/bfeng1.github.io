@@ -32,16 +32,16 @@ To address the issues of features we have found during the EDA process and impro
   
 ### 3. Model Building
 
-1. Develop a baseline model using the median home price for each zip code. In case there are some missing zip codes in the testing set, we will fill them with median home prices for all areas.
+- Develop a baseline model using the median home price for each zip code. In case there are some missing zip codes in the testing set, we will fill them with median home prices for all areas.
   
-2. Built some machine learning models and compared their performances. The ML models I have tried are linear regression, ridge regression, lasso regression, and random forest regression models. The evaluation metrics used are mean absolute error (MAE), mean squared error (MSE), and r2 score. 
+- Built some machine learning models and compared their performances. The ML models I have tried are linear regression, ridge regression, lasso regression, and random forest regression models. The evaluation metrics used are mean absolute error (MAE), mean squared error (MSE), and r2 score. 
 
 <img src="images/thumbnail_images/ml_p1_figure1.png?raw=true"/>
 
-3. In the comparison, we can see that random forest regression has significantly better results compared to others. So we will fine-tune the hyperparameters to pursue a better performance. 
+- In the comparison, we can see that random forest regression has significantly better results compared to others. So we will fine-tune the hyperparameters to pursue a better performance. 
 <img src="images/thumbnail_images/ml_p1_figure2.png?raw=true"/>
 
-4. Finally, we will use the model to predict the house price on the testing data that we have separated prior, here is the final result we obtained:
+- Finally, we will use the model to predict the house price on the testing data that we have separated prior, here is the final result we obtained:
 
 ```
 MAE on testing data: 152845.7492622322
