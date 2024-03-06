@@ -1,42 +1,25 @@
 ## Credit Risk Prediction & Model Explainability
 
 **Project description:** 
-This project centers around constructing a classification model to forecast credit risk based on supplied features. Our main focus will be on interpreting complex model predictions using permutation importance and SHAP (SHapley Additive exPlanations) importance techniques. By employing these methods, we aim to gain deeper insights into the factors influencing credit risk assessment. This project offers a concise yet effective exploration of how advanced interpretability techniques can enhance our understanding of complex machine learning models in the context of credit risk prediction.
+In today's banking landscape, assessing and managing risk is crucial for maintaining financial stability and making responsible lending decisions. Traditional methods of evaluating loan risk rely on metrics like the probability of default, but with the advent of machine learning, there's an opportunity to enhance these methods. However, machine learning models can be opaque, making it difficult to understand how they arrive at their predictions.
 
-Agenda:
-* Perform EDA to understand what features could indicate the risk of loan default
-* Build a classification model to predict the potential default loans
-* Use grid search for hyperparameter tuning to achieve the best performance on the random forest tree model.
-* Use permutation importance to understand which features are the most critical for the overall model performance
-* Use SHAP to form a better understanding of how the chosen model is working to make each prediction. This can help us understand how the values within each feature affect the prediction.
-* Through the exercise, understand the process of credit risk analysis in banking.
+This project aims to tackle this challenge by developing a machine-learning model to predict loan default probability accurately. More importantly, we'll make the model transparent and easy to understand using common techniques. By shedding light on how the model makes decisions, we hope to build trust and confidence among stakeholders in the banking sector.
+
+Main objectives
+
+- Conduct EDA to identify key risk indicators in loan default prediction.
+- Develop a precise classification model for predicting potential loan defaults.
+- Determine critical features using permutation importance analysis.
+- Utilize SHAP to understand how model predictions are influenced by feature values.
 
 ### 1. Exploratory Data Analysis & Data Cleaning
 
 Understand the features related to the house prices and explore the potential issues with those features that might need further clearing or processing. 
-
-One of the techniques used in this project to fill the missing values is the KNN imputer from fancyimpute. It shows a better performance compared to other common techniques, such as filling by the median values, or highest occurred values. However, it is a relatively slow function to run, especially when we have a large data frame. 
-``` python
-from fancyimpute import KNN
-knn_imputer = KNN()
-filled_data = knn_imputer.fit_transform(df)
-```
  
 ### 2. Model Building
 
 For this project, I have tried logistic regression model and the Random Forest Classification model. We can see there is a significant performance increase using RFC than using LR model. However, one of the downsides is the trade of interpretation. So, this project has tried some techniques to help understand how RFC made the predictions. 
 
-```
-Logistic Regression Model performance:
-the model accuracy score is  0.7982200398956575
-the model f1 score is 0.2507122507122507
-where recall score is 0.1510989010989011 and precision score is 0.7357859531772575
-
-Random Forest Classification Model Performance:
-the model accuracy score is  0.9350928341261316
-the model f1 score is 0.8344422700587084
-where recall score is 0.7321428571428571 and precision score is 0.9699727024567789
-```
 
 ### 3. Model Explanation
 To understand how the model made the prediction, we need to be able to know how important each feature is and how they are affecting the predicted values. Two common methods are permutation importance and SHAP importance. Here are the similarities and differences between the two importance calculations.
