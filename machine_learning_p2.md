@@ -15,38 +15,48 @@ Main objectives
 ### 1. Exploratory Data Analysis & Data Cleaning
 
 Understand the features related to the house prices and explore the potential issues with those features that might need further clearing or processing. 
+
+<img src="images/thumbnail_images/ml_p2_figure0.png?raw=true"/>
  
-### 2. Model Building
+### 2. Model Development
 
-For this project, I have tried logistic regression model and the Random Forest Classification model. We can see there is a significant performance increase using RFC than using LR model. However, one of the downsides is the trade of interpretation. So, this project has tried some techniques to help understand how RFC made the predictions. 
+For this project, I have tried the logistic regression model and the Random Forest Classification model. We can see there is a significant performance increase using RFC than using the LR model in all metrics we used.  
 
+<img src="images/thumbnail_images/ml_p2_figure1.png?raw=true"/>
 
-### 3. Model Explanation
-To understand how the model made the prediction, we need to be able to know how important each feature is and how they are affecting the predicted values. Two common methods are permutation importance and SHAP importance. Here are the similarities and differences between the two importance calculations.
+### 3. Model Explainability
+
+The core focus of the project involved utilizing permutation importance and SHAP techniques to interpret the selected model. We identified which features significantly influenced the model's performance and which did not. By employing SHAP techniques, we delved deeper into understanding how the model makes its predictions. We examined specific features and their impact on the model's decision-making process, cross-referencing them with business insights to validate their accuracy.
+
+Our overarching objective throughout this exercise was to enhance trust among business owners when dealing with 'black-box' models. Through these techniques, we were able to shed light on the inner workings of the model, providing valuable insights and guidance for future improvements should any anomalies arise during the process.
+
+Here are some comparisons between the two techniques 
+
 ```
 Permutation importance is calculated on the entire dataset and measures how much the accuracy of the whole dataset changes by eliminating a feature.
 
+How it works: First, a baseline performance will be obtained. Then, to measure the importance of a feature, we will randomly shuffle that column in the training data, and get the performance for the new model. By checking how big/small the difference between the performance with baseline performance, we can obtain the importance level for the given feature.
+
 It can be used to:
 
-* Understand which features to keep and which to exclude.
-* Check for data leakage
-* Understand what features are most important to model accuracy
-* Guide additional feature engineering
-
+Understand which features to keep and which to exclude.
+Check for data leakage
+Understand what features are most important to model accuracy
+Guide additional feature engineering
 SHAP importance SHAP importance is calculated on row level and can be used to understand what is important to a specific row. The values represent how a feature influences the prediction of a single row relative to the average outcome in the dataset.
 
 It can be used to:
 
-* Understand which features most influence the predicted outcome.
-* Dive into a feature and understand how the different values of that feature affect the prediction.
-* Understand what is most influential on individual rows or subsets within the data.
-
+Understand which features most influence the predicted outcome.
+Dive into a feature and understand how the different values of that feature affect the prediction.
+Understand what is most influential on individual rows or subsets within the data.
 Key Differences
 
 Permutation importance can only measure the importance of features to the entire dataset, not in specific rows. SHAP importance can be used to see the feature importance in a row level.
 Permutation importance does not include a direction in which SHAP importance can be directional.
 The magnitude of the SHAP importance can be used to understand how the values within a feature influence the outcome, while Permutation importance values are used to estimate how important the feature is to the whole dataset.
 ```
+
 
 ### 4. Conclusion
 #### Permutation Importance Conclusion
