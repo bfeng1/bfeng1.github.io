@@ -56,29 +56,27 @@ Permutation importance can only measure the importance of features to the entire
 Permutation importance does not include a direction in which SHAP importance can be directional.
 The magnitude of the SHAP importance can be used to understand how the values within a feature influence the outcome, while Permutation importance values are used to estimate how important the feature is to the whole dataset.
 ```
-<img src="images/thumbnail_images/ml_p2_figure3.PNG?raw=true"/>
-
 **Permutation Importance Conclusion**
+
+<img src="images/thumbnail_images/ml_p2_figure3.PNG?raw=true"/>
 
 In the permutation importance table, we can see which features have the biggest impact on the overall model accuracy.
 
-In our example, loan_percent_income is ranked as the top 1 most important feature for the model's accuracy. It makes sense since this feature combines the loan amount and the borrower's income, AKA debt-to-income ratio (DTI). It is one of the most commonly used values to evaluate how well / bad a person's finances.
-From the permutation importance table, we can decide what other feature engineering steps might be needed. Such as removing some features that do not affect the model's performance.
-Since the shuffling process is randomized, we can see the weight value is not a constant. (+-) value means the importance could change up and down within that range from one shuffle to another.
-
-<img src="images/thumbnail_images/ml_p2_figure4.png?raw=true"/>
+1. In our example, loan_percent_income is ranked as the top 1 most important feature for the model's accuracy. It makes sense since this feature combines the loan amount and the borrower's income, AKA debt-to-income ratio (DTI). It is one of the most commonly used values to evaluate how well / bad a person's finances.
+2. From the permutation importance table, we can decide what other feature engineering steps might be needed. Such as removing some features that do not affect the model's performance.
+3. Since the shuffling process is randomized, we can see the weight value is not a constant. (+-) value means the importance could change up and down within that range from one shuffle to another.
 
 **SHAP Importance Conclution**
 
-In the shap chart, we can see how each feature contributes to the final prediction of loan default.
+<img src="images/thumbnail_images/ml_p2_figure4.png?raw=true"/>
 
-Below are a few features that we can use SHAP chart to explain how the model works and see if it aligns with business sense.
+In the shap chart, we can see how each feature contributes to the final prediction of loan default.Below are a few features that we can use SHAP chart to explain how the model works and see if it aligns with business sense.
 
-Notice that when we have a higher loan_percent_income value, we will see the SHAP value increase as well which means the predicted probability of loan default increases. That is what we expected from a business perspective as well. When a person's DTI is too high, they will be classified as too risky to lend money to because they have less safe margin in their finance.
+1. Notice that when we have a higher loan_percent_income value, we will see the SHAP value increase as well which means the predicted probability of loan default increases. That is what we expected from a business perspective as well. When a person's DTI is too high, they will be classified as too risky to lend money to because they have less safe margin in their finance.
 
-person_home_ownership_RENT is a binary value, it is either 1 (rent) or 0 (not rent). We can see how the model treats renting as a feature to increase the predicted probability of loan default and not renting to reduce the predicted value. That makes business sense as well. Renting typically implies that the individual does not own a home or have significant assets. This could indicate a lack of financial stability or a lower ability to handle unexpected expenses.
+2. person_home_ownership_RENT is a binary value, it is either 1 (rent) or 0 (not rent). We can see how the model treats renting as a feature to increase the predicted probability of loan default and not renting to reduce the predicted value. That makes business sense as well. Renting typically implies that the individual does not own a home or have significant assets. This could indicate a lack of financial stability or a lower ability to handle unexpected expenses.
 
-For the model, the higher person_income is, the smaller the SHAP value is which means the predicted probability of loan default decreases. That makes business sense as well. When a person has a higher income, it will be easier for them to cover unexpected expenses, and this normally indicates a higher financial stability.
+3. For the model, the higher person_income is, the smaller the SHAP value is which means the predicted probability of loan default decreases. That makes business sense as well. When a person has a higher income, it will be easier for them to cover unexpected expenses, and this normally indicates a higher financial stability.
 
 ### 4. Conclusion
 
