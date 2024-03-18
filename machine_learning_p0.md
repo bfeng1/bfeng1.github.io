@@ -1,4 +1,4 @@
-## Regression Problem: House Price Prediction
+## Computer Vision: YOLOv8 on Traffic Detection
 
 **Project description:** 
 Among all versions of the American dream that are out there, one of the most frequently appeared terms would-be homeowner. For many people, owning a home is a big deal not only financially, but in the whole life journey. However, it is not an easy process to obtain a house that fits your personal and financial needs. One of the major factors to consider would be the price of the house.
