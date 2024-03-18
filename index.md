@@ -2,6 +2,9 @@
 ---
 ### Machine Learning
 
+[Computer Vision: YOLOv8 on Traffic Detection](/machine_learning_p1)
+<img src="images/thumbnail_images/house_price_prediction.png?raw=true"/>
+
 [Regression Problem: House Price Prediction](/machine_learning_p1)
 <img src="images/thumbnail_images/house_price_prediction.png?raw=true"/>
 
