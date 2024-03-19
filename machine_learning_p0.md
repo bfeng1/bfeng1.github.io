@@ -94,3 +94,6 @@ To improve the performance further, we could involve further optimization by adj
 During the analysis of the training results, we noticed that the model performance continued to increase in different metrics as the number of epochs increased. So we can continue to train the model with more epochs, this should result in a performance increase as well.
 
 Last but not least, the provided dataset only contains ~3.5K training images. If we can expand the training dataset further by including more samples, we could obtain even better results.
+
+
+For more details about this project, please visit my Kaggle notebook [Computer Vision: YOLOv8 on Traffic Detection](https://www.kaggle.com/code/binfeng2021/computer-vision-yolov8-on-traffic-detection)
