@@ -47,19 +47,19 @@ Here are some technical details of the YOLO model's object detection method:
 
 <img src="images/thumbnail_images/ml_p0_figure3.png?raw=true"/>
 
-Precision-confidence Curve: a graphical representation of how the precision of the model changes at different confidence levels. In the first plot, we can see that the precisions of the model increase for all classes as the confidence increases. We can reach to precision score of 1 for all classes when the confidence threshold is 0.958.
+Precision-confidence Curve: a graphical representation of how the precision of the model changes at different confidence levels. In the first plot, we can see that the precisions of the model increase for all classes as the confidence increases. We can reach to precision score of 1 for all classes when the confidence threshold is 0.932.
 
 <img src="images/thumbnail_images/ml_p0_figure4.png?raw=true"/>
 
-Recall-confidence Curve: a graphical representation of how recall of the model changes at different confidence levels. In the second plot, we can see that the recall of the model decreases for all classes as the confidence increases. The recall for all classes is 0.94 when the confidence threshold is 0.
+Recall-confidence Curve: a graphical representation of how recall of the model changes at different confidence levels. In the second plot, we can see that the recall of the model decreases for all classes as the confidence increases. The recall for all classes is 0.95 when the confidence threshold is 0.
 
 <img src="images/thumbnail_images/ml_p0_figure5.png?raw=true"/>
 
-Precision-Recall Curve: a graphical representation of the trade-off between precision and recall for different thresholds used. From the third plot, we see that the model's precision decreases as the recall increases. When using the IoU threshold (intersection over Union) of 0.5, the model can achieve mAP (mean average precision) of 0.908.
+Precision-Recall Curve: a graphical representation of the trade-off between precision and recall for different thresholds used. From the third plot, we see that the model's precision decreases as the recall increases. When using the IoU threshold (intersection over Union) of 0.5, the model can achieve mAP (mean average precision) of 0.901.
 
 <img src="images/thumbnail_images/ml_p0_figure6.png?raw=true"/>
 
-F1-Confidence Curve: a graphic representation of how the F1 score of the model changes at different confidence levels. Since the F1 score is calculated using both precision and recall scores, it can be a good visualization of how the model is performing overall. From the fourth plot, we can see that the F1 score increases and then decreases as the confidence threshold increases. When setting the confidence threshold as 0.319, we can achieve an F1 score of 0.88 for all classes.
+F1-Confidence Curve: a graphic representation of how the F1 score of the model changes at different confidence levels. Since the F1 score is calculated using both precision and recall scores, it can be a good visualization of how the model is performing overall. From the fourth plot, we can see that the F1 score increases and then decreases as the confidence threshold increases. When setting the confidence threshold as 0.465, we can achieve an F1 score of 0.87 for all classes.
 
 <img src="images/thumbnail_images/ml_p0_figure7.png?raw=true"/>
 
@@ -81,7 +81,7 @@ From the plots included in the sixth figure, we can see that all of those three 
 
 Based on the results obtained from the test images, we can see a significant performance increase from the pre-trained model. YOLOv8 has performed very well after training and can detect most objects that we specified in the dataset. Here are some detections made by the final model in the test dataset:
 
-
+<img src="images/thumbnail_images/ml_p0_figure9.png?raw=true"/>
 
 ### Conclusion
 
