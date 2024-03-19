@@ -21,7 +21,7 @@ Now, imagine leveraging the capabilities of YOLO to tackle a pressing real-world
 
 Here are some examples of the input images for the model training:
 
-<img src="images/thumbnail_images/house_price_prediction.png?raw=true"/>
+<img src="images/thumbnail_images/ml_p0_figure1.png?raw=true"/>
 
 ### 2. Understand Model YOLOv8
 
@@ -37,22 +37,35 @@ Here are some technical details of the YOLO model's object detection method:
 
 4. To generate the final output, YOLO will combine a set of bounding boxes from previous steps, each bounding box is associated with its class label and confidence score. Those combined bounding boxes then can represent the objects detected along with their location in the image and classified label. To prevent redundancy and improve localization accuracy, YOLO applied a technique called Non-Maximum Suppression (NMS) to those predicted bounding boxes. NMS selects the most confident bounding boxes while suppressing overlapping detections with lower confidence scores.
 
-Before fine-tuning, the YOLOv8 model did not perform very well on the traffic detections that we labeled, here are some examples of the prediction from a pre-trained model:
+**Before fine-tuning, the YOLOv8 model did not perform very well on the traffic detections that we labeled**, here are some examples of the prediction from a pre-trained model:
 
+<img src="images/thumbnail_images/ml_p0_figure2.png?raw=true"/>
   
 ### 3. Train the YOLOv8 model and analyze the results
 
 #### Interpretation of the plots
 
+<img src="images/thumbnail_images/ml_p0_figure3.png?raw=true"/>
+
 Precision-confidence Curve: a graphical representation of how the precision of the model changes at different confidence levels. In the first plot, we can see that the precisions of the model increase for all classes as the confidence increases. We can reach to precision score of 1 for all classes when the confidence threshold is 0.958.
+
+<img src="images/thumbnail_images/ml_p0_figure4.png?raw=true"/>
 
 Recall-confidence Curve: a graphical representation of how recall of the model changes at different confidence levels. In the second plot, we can see that the recall of the model decreases for all classes as the confidence increases. The recall for all classes is 0.94 when the confidence threshold is 0.
 
+<img src="images/thumbnail_images/ml_p0_figure5.png?raw=true"/>
+
 Precision-Recall Curve: a graphical representation of the trade-off between precision and recall for different thresholds used. From the third plot, we see that the model's precision decreases as the recall increases. When using the IoU threshold (intersection over Union) of 0.5, the model can achieve mAP (mean average precision) of 0.908.
+
+<img src="images/thumbnail_images/ml_p0_figure6.png?raw=true"/>
 
 F1-Confidence Curve: a graphic representation of how the F1 score of the model changes at different confidence levels. Since the F1 score is calculated using both precision and recall scores, it can be a good visualization of how the model is performing overall. From the fourth plot, we can see that the F1 score increases and then decreases as the confidence threshold increases. When setting the confidence threshold as 0.319, we can achieve an F1 score of 0.88 for all classes.
 
+<img src="images/thumbnail_images/ml_p0_figure7.png?raw=true"/>
+
 Confusion Matrix: a table that allows visualization of the performance of a classification model by summarizing the correct and incorrect classifications. The diagonal of the table shows all the positives made by the model. As we can see from the fifth plot, most of the high-value numbers in the table are in the diagonal line, so we can conclude that the model can make correct predictions in most cases.
+
+<img src="images/thumbnail_images/ml_p0_figure8.png?raw=true"/>
 
 Results plot during training: a combination of different metrics measured during the training process. In the sixth plot, we can see multiple visualizations of different metrics values changes over different epochs. To better understand the results, we need to understand the different loss values measured first.
 
@@ -66,7 +79,9 @@ From the plots included in the sixth figure, we can see that all of those three 
 
 ### 4. Test the model on test data
 
-Based on the results obtained from the test images, we can see a significant performance increase from the pre-trained model. YOLOv8 has performed very well after training and can detect most objects that we specified in the dataset
+Based on the results obtained from the test images, we can see a significant performance increase from the pre-trained model. YOLOv8 has performed very well after training and can detect most objects that we specified in the dataset. Here are some detections made by the final model in the test dataset:
+
+
 
 ### Conclusion
 
@@ -78,4 +93,4 @@ To improve the performance further, we could involve further optimization by adj
 
 During the analysis of the training results, we noticed that the model performance continued to increase in different metrics as the number of epochs increased. So we can continue to train the model with more epochs, this should result in a performance increase as well.
 
-Last but not least, the provided dataset only contains ~3.5K training images. If we can expand the training dataset further by including more samples, we could obtain a even better results.
+Last but not least, the provided dataset only contains ~3.5K training images. If we can expand the training dataset further by including more samples, we could obtain even better results.
