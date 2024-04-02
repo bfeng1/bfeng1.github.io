@@ -31,6 +31,6 @@
 
 #### Publications
 - [Marker-less motion capture system using OpenPose](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12101/121010B/Marker-less-motion-capture-system-using-OpenPose/10.1117/12.2619059.short/)
-
-- [Check out my Medium Stories](https://medium.com/@binfengmemphis) 
+- [Check out my Medium Stories](https://medium.com/@binfengmemphis)
+  
 ---
