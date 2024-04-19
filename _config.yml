@@ -7,7 +7,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br><br>
   <a href="https://www.linkedin.com/in/bfeng1/">View My LinkedIn Profile</a> 
   <br><br>
-  <a href="https://https://medium.com/@binfengmemphis/">View My Medium Profile</a> 
+  <a href="https://www.medium.com/@binfengmemphis/">View My Medium Profile</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
