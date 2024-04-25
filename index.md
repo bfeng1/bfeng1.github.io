@@ -12,12 +12,6 @@
 <img src="images/thumbnail_images/credit_risk_prediction.png?raw=true"/>
 
 ---
-### Large Language Models
-
-[Dive into Large Language Models -- BBPE tokenizer](/llm_project_1)
-<img src="images/thumbnail_images/BBPE-tokenizer.png?raw=true"/>
-
----
 ### Data Analysis
 
 [Gait Analysis Performance Comparison](/data_analysis_p1)
