@@ -14,8 +14,8 @@
 ---
 ### Large Language Models
 
-[BBPE](/LLM_project1)
-<img src="images/thumbnail_images/running_analysis.png?raw=true"/>
+[Dive into Large Language Models -- BBPE tokenizer](/LLM_project1)
+<img src="images/thumbnail_images/BBPE-tokenizer.png?raw=true"/>
 
 ---
 ### Data Analysis
