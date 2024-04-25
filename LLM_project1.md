@@ -1,4 +1,4 @@
-## Dive into Large Language Models: BBPE tokenizer
+## Dive into Large Language Models -- BBPE tokenizer
 **Project description:** 
 Unless you have been living under a rock, I am sure that you have heard, used, or even worked on some generative AIs. I have been amazed by the ChatGPT when it was first released in 2022. I have been wondering how this thing works, it feels like some dark magic. Over the years, this new AI hype has never trended down, but it has been recognized as the next economic engine for decades to come.
 
