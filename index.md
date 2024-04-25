@@ -14,7 +14,7 @@
 ---
 ### Large Language Models
 
-[Dive into Large Language Models -- BBPE tokenizer](/LLM_project1)
+[Dive into Large Language Models -- BBPE tokenizer](/llm_project_1)
 <img src="images/thumbnail_images/BBPE-tokenizer.png?raw=true"/>
 
 ---
