@@ -12,6 +12,12 @@
 <img src="images/thumbnail_images/credit_risk_prediction.png?raw=true"/>
 
 ---
+### Large Language Models
+
+[BBPE](/LLM_project1)
+<img src="images/thumbnail_images/running_analysis.png?raw=true"/>
+
+---
 ### Data Analysis
 
 [Gait Analysis Performance Comparison](/data_analysis_p1)
