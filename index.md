@@ -37,7 +37,7 @@ In this project, we utilized the YOLO model for traffic detection, starting with
 
 Throughout the project, we have performed exploration data analysis to understand the dataset and the relationship between given features and the house price. Then, we cleaned and preprocessed the dataset. Lastly, We aimed to create a model that can predict house prices with only the provided features. As we can see from the final results, we can obtain a pretty decent performance using the random forest regression model on the unseen data.
 
-**Skills: Python, Regression Model, EDA, Data Cleaning**
+**Skills: Python, Regression Model, EDA, Data Cleaning, Feature Engineer**
 
 <img src="images/thumbnail_images/house_price_prediction.png?raw=true"/>
 
