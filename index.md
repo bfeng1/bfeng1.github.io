@@ -59,13 +59,6 @@ We have a running dataset that was collected using our proposed markerless gait 
 <img src="images/thumbnail_images/running_analysis.png?raw=true"/>
 
 ---
-[Data Science Salary Analysis](https://www.kaggle.com/code/binfeng2021/data-visualization-data-science-salary-analysis)
-
-**Skills: Python, Data Analysis, Data Visualization**
-
-<img src="images/thumbnail_images/data_science_salary_analysis.png?raw=true"/>
-
----
 
 ### Publications
 - [Marker-less motion capture system using OpenPose](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12101/121010B/Marker-less-motion-capture-system-using-OpenPose/10.1117/12.2619059.short/)
