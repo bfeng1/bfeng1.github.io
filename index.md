@@ -25,7 +25,7 @@
 
 **Machine Learning**
 
-[Computer Vision: YOLOv8 on Traffic Detection](/machine_learning_p0)
+[Computer Vision: YOLOv8 on Traffic Detection](https://www.kaggle.com/code/binfeng2021/computer-vision-yolov8-on-traffic-detection?rvi=1)
 
 In this project, we utilized the YOLO model for traffic detection, starting with familiarization and testing of a pre-trained model. Then, we have fine-tuned the model with our dataset. The retrained model shows a significantly improved performance. We have also analyzed different metrics and plots obtained during the training process. All of those plots show the confirmation of enhanced accuracy.
 
@@ -33,7 +33,7 @@ In this project, we utilized the YOLO model for traffic detection, starting with
 
 <img src="images/thumbnail_images/yolo_with_traffic_detection.png?raw=true"/>
 
-[Regression Problem: House Price Prediction](/machine_learning_p1)
+[Regression Problem: House Price Prediction](https://www.kaggle.com/code/binfeng2021/regression-problem-house-price-prediction?rvi=1)
 
 Throughout the project, we have performed exploration data analysis to understand the dataset and the relationship between given features and the house price. Then, we cleaned and preprocessed the dataset. Lastly, We aimed to create a model that can predict house prices with only the provided features. As we can see from the final results, we can obtain a pretty decent performance using the random forest regression model on the unseen data.
 
