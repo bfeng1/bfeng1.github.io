@@ -3,16 +3,16 @@
 ### Professional Experience
 
 **Business Intelligence Engineer @ TopRx, LLC (Apr 2022 - Present)**
--	Developed and implemented a classification model for personalized customer recommendations, resulting in a 50% increase in success rates compared to previous methods.
+-	Implemented a classification model for personalized customer recommendations, resulting in a 50% increase in success rates compared to previous methods.
+-	Performed sentiment analysis on sales call transcript data, resulting in a 10% increase in lead conversion.
+-	Spearheaded the creation of customer segmentation tools for the sales department's promotional campaigns, contributing to a revenue increase of over 10% through targeted marketing strategies.
+-	Oversaw the creation, management, and upkeep of company data within the database, guaranteeing the quality and integrity of data utilized daily.
 -	Designed and constructed data dashboards to monitor key performance indicators (KPIs) for executive decision-making, enhancing data-driven insights and strategic planning.
--	Spearheaded the creation of customer segmentation tools for the sales department's promotional campaigns, contributing to a revenue increase of over 10% through targeted marketing strategies. 
--	Engineered tools to analyze customer interactions with sales representatives, facilitating the generation of optimized call schedules to boost customer engagement and satisfaction levels.
 
 **Research Assistant @ University of Memphis (Jun 2020 - Dec 2021)**
--	Developed an automated marker-less motion capture system to collect over 200,000 image frames of athletes' physical motions.
+-	Developed an automated markerless motion capture system to collect over 200,000 image frames of athletes' physical motions.
 -	Achieved 80% accuracy in identifying improper knee placement during vertical jumps using a trained KNN classifier.
--	Conducted a comparative analysis of our marker-less gait analysis system with QUALYSIS, identifying areas for improvement.
--	Effectively communicated research findings to stakeholders, translating complex data into actionable insights.
+-	Compared our markerless gait system versus QUALYSIS, identified improvements, and communicated findings to stakeholders with actionable insights.
 
 ---
 ### Education
