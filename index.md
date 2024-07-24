@@ -67,7 +67,7 @@ We have built a dashboard to demonstrate how each presidential candidate spent t
 
 **Skills: Tableau, Data Visualization, Reporting**
 
-<img src="images/thumbnail_images/running_analysis.png?raw=true"/>
+<img src="images/thumbnail_images/2016 presidential campaign spending.png?raw=true"/>
 
 ---
 
