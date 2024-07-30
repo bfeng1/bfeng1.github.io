@@ -63,7 +63,7 @@ We have a running dataset that was collected using our proposed markerless gait 
 
 [2016 Presidential Campaign Spending Overview](https://public.tableau.com/app/profile/bin.feng6585/viz/2016PresidentialCampaignSpending_17217811571510/Dashboard1#1)
 
-We have built a dashboard to demonstrate how each presidential candidate spent their money on their campaign for the 2016 election. 
+I have built a dashboard to demonstrate how each presidential candidate spent their money on their campaign for the 2016 election. 
 
 **Skills: Tableau, Data Visualization, Reporting**
 
