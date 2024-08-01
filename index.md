@@ -3,11 +3,11 @@
 ### Professional Experience
 
 **Business Intelligence Engineer @ TopRx, LLC (Apr 2022 - Present)**
--	Implemented a classification model for personalized customer recommendations, resulting in a 50% increase in success rates compared to previous methods.
--	Performed sentiment analysis on sales call transcript data, resulting in a 10% increase in lead conversion.
--	Spearheaded the creation of customer segmentation tools for the sales department's promotional campaigns, contributing to a revenue increase of over 10% through targeted marketing strategies.
--	Oversaw the creation, management, and upkeep of company data within the database, guaranteeing the quality and integrity of data utilized daily.
--	Designed and constructed data dashboards to monitor key performance indicators (KPIs) for executive decision-making, enhancing data-driven insights and strategic planning.
+-	Developed and implemented a classification model using TensorFlow and SQL to generate personalized purchase lists, increasing the sales success rate by 50% for phone-based channels.
+-	Leveraged Census geospatial data to enhance customer insights, improving product recommendations and pitch lists, resulting in a 20% increase in new item success rates and stronger customer relationships.
+-	Created a predictive model in Scikit-learn leveraging historical trends and current customer buying habits to identify high-risk customers, enabling proactive risk mitigation strategies that reduced customer churn by 10%.
+-	Utilized DOMO and Python to extract, transform, and visualize data from multiple sources, providing executives with comprehensive and intuitive insights that informed strategic decisions.
+
 
 **Research Assistant @ University of Memphis (Jun 2020 - Dec 2021)**
 -	Developed an automated markerless motion capture system to collect over 200,000 image frames of athletes' physical motions.
