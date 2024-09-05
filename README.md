@@ -61,6 +61,14 @@ We have a running dataset that was collected using our proposed markerless gait 
 ---
 **Data Visualization**
 
+[New York Airbnb Investment by Location](https://public.tableau.com/app/profile/bin.feng6585/viz/NewYorkAirBnBAnalysis/Dashboard1)
+
+By looking into the New York Airbnb records from 2008 to 2015, I built a dashboard in Tableau to enhance the decision-making process for choosing locations and property for Airbnb investment in New York. 
+
+**Skills: Tableau, Data Visualization, Reporting**
+
+<img src="images/thumbnail_images/2016 presidential campaign spending.png?raw=true"/>
+
 [2016 Presidential Campaign Spending Overview](https://public.tableau.com/app/profile/bin.feng6585/viz/2016PresidentialCampaignSpending_17217811571510/Dashboard1#1)
 
 I have built a dashboard to demonstrate how each presidential candidate spent their money on their campaign for the 2016 election. 
