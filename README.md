@@ -67,7 +67,7 @@ By looking into the New York Airbnb records from 2008 to 2015, I built a dashboa
 
 **Skills: Tableau, Data Visualization, Reporting**
 
-<img src="images/thumbnail_images/2016 presidential campaign spending.png?raw=true"/>
+<img src="images/thumbnail_images/Airbnb_in_new_york.png?raw=true"/>
 
 [2016 Presidential Campaign Spending Overview](https://public.tableau.com/app/profile/bin.feng6585/viz/2016PresidentialCampaignSpending_17217811571510/Dashboard1#1)
 
