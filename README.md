@@ -61,7 +61,15 @@ We have a running dataset that was collected using our proposed markerless gait 
 ---
 **Data Visualization**
 
-[Genative AI Search Trend in US](https://public.tableau.com/app/profile/bin.feng6585/viz/GenerativeAISearchTrend2024/Dashboard1)
+[Superstore Sales Overview](https://public.tableau.com/app/profile/bin.feng6585/viz/SalesBIDashboardSample/Dashboard2#1)
+
+Create an interactive dashboard in Tableau to draw insights into the overview of superstore sales.  
+
+**Skills: Tableau, Data Visualization, Reporting**
+
+<img src="images/thumbnail_images/gen AI search in US.png?raw=true"/>
+
+[Genative AI Search Trend in the US](https://public.tableau.com/app/profile/bin.feng6585/viz/GenerativeAISearchTrend2024/Dashboard1)
 
 Create an interactive dashboard in Tableau to draw insights into the search trend for different generative AI models in early 2024.  
 
@@ -71,19 +79,11 @@ Create an interactive dashboard in Tableau to draw insights into the search tren
 
 [New York Airbnb Investment by Location](https://public.tableau.com/app/profile/bin.feng6585/viz/NewYorkAirBnBAnalysis/Dashboard1)
 
-By looking into the New York Airbnb records from 2008 to 2015, I built a dashboard in Tableau to enhance the decision-making process for choosing locations and property for Airbnb investment in New York. 
+By looking into the New York Airbnb records from 2008 to 2015, I built a dashboard in Tableau to enhance the decision-making process for choosing locations and properties for Airbnb investment in New York. 
 
 **Skills: Tableau, Data Visualization, Reporting**
 
 <img src="images/thumbnail_images/Airbnb_in_new_york.png?raw=true"/>
-
-[2016 Presidential Campaign Spending Overview](https://public.tableau.com/app/profile/bin.feng6585/viz/2016PresidentialCampaignSpending_17217811571510/Dashboard1#1)
-
-I have built a dashboard to demonstrate how each presidential candidate spent their money on their campaign for the 2016 election. 
-
-**Skills: Tableau, Data Visualization, Reporting**
-
-<img src="images/thumbnail_images/2016 presidential campaign spending.png?raw=true"/>
 
 ---
 
