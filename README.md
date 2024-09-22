@@ -67,7 +67,7 @@ Create an interactive dashboard in Tableau to draw insights into the overview of
 
 **Skills: Tableau, Data Visualization, Reporting**
 
-<img src="images/thumbnail_images/gen AI search in US.png?raw=true"/>
+<img src="images/thumbnail_images/superstore sales overview.png?raw=true"/>
 
 [Genative AI Search Trend in the US](https://public.tableau.com/app/profile/bin.feng6585/viz/GenerativeAISearchTrend2024/Dashboard1)
 
