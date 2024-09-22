@@ -8,5 +8,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   <a href="https://www.linkedin.com/in/bfeng1/">View My LinkedIn Profile</a> 
   <br><br>
   <a href="https://www.kaggle.com/binfeng2021/">View My Kaggle Profile</a> 
+  <br><br>
+  <a href="https://public.tableau.com/app/profile/bin.feng6585/vizzes">View My Tableau Profile</a> 
 
 theme: jekyll-theme-minimal
