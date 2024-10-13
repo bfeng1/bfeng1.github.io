@@ -21,6 +21,21 @@
 - B.S., Electrical and Computer Engineering	| University of Memphis (_May 2020_)
 
 ---
+### Certifications
+
+**Machine Learning & Data Science**
+- [DeepLearning.AI TensorFlow Developer Professional Certificate](https://www.coursera.org/account/accomplishments/professional-cert/Z5UVZJAB7MP2?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof)
+- [Google Data Analytics Professional Certificate](https://www.coursera.org/account/accomplishments/verify/G5V2UUC7X43M?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course)
+
+**SQL**
+- [SQL (Advanced Certificate](https://www.hackerrank.com/certificates/a10305eaa375)
+- [SQL (Intermediate) Certificate](https://www.hackerrank.com/certificates/b16aa56d0f1c)
+
+**Cloud Services**
+- [AWS Certified Cloud Practitioner (expires on 05/2026)](https://www.credly.com/badges/5de091c9-1567-4bb2-86e2-c09f007b9c8c/linked_in_profile)
+
+
+---
 ### Projects
 
 **Machine Learning**
