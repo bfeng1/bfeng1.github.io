@@ -28,7 +28,7 @@
 - [Google Data Analytics Professional Certificate](https://www.coursera.org/account/accomplishments/verify/G5V2UUC7X43M?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course)
 
 **SQL**
-- [SQL (Advanced Certificate](https://www.hackerrank.com/certificates/a10305eaa375)
+- [SQL (Advanced) Certificate](https://www.hackerrank.com/certificates/a10305eaa375)
 - [SQL (Intermediate) Certificate](https://www.hackerrank.com/certificates/b16aa56d0f1c)
 
 **Cloud Services**
