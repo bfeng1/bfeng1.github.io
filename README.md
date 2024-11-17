@@ -42,6 +42,9 @@
 
 [Question Answering with Chinese History Book](https://www.kaggle.com/code/binfeng2021/question-answering-with-chinese-history-book#Main-Goal)
 
+I developed a question-answering (QA) bot designed to answer questions about Chinese history using a Chinese history book as the primary reference. The model leverages text embeddings to identify relevant contexts within the book. The text was preprocessed into chunks, and the similarity between the embeddings of a user’s question and the book's sentences was calculated to determine the most relevant sections. Once a matching sentence was found, the surrounding sentences were included to create a broader context. This context was then used by the QA model to generate accurate and relevant answers.
+
+Main Objectives
 - Process a pdf document of a Chinese hitory book, and use it as reference to answer fact-based questions related to Chinese history.
 - Embed the texts from the book and find the most similar text chunk as context to answer provided questions.
 - Build a questions answering bot that can process the information and find the most likely answer based on contexts
