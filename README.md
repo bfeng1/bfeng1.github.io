@@ -56,7 +56,13 @@ Main Objectives
 
 [Nature Language Processing: Build GPT Tokenizer from Scratch](https://www.kaggle.com/code/binfeng2021/what-is-bbpe-tokenizer-behind-llms)
 
-In this post, we have gone through the BBPE tokenizer with many details. First, in order to understand why BBPE (Byte-level Byte Pair Encoding) tokenizer is a popular choice for LLMs, we have checked other types of tokenizers, such as word-level tokenizers, character-level tokenizers, or byte level using UTF-8 directly. All of those tokenizers have their own advantage, but when used in the LLMs task, they all lack some key factors. On the other hand, the BBPE tokenizer starts with a very small base vocabulary but also provides the flexibility to add new vocabulary by merging frequently appeared pairs. So the LLMs research can find a good balance between the good size of vocabulary and the good size of encoded tokens. This is the one advantage BBPE tokenizer can provide while other methods lack. Then, we went through the initial BPE algorithm, and the byte-level implementation step by step. To train a BBPE tokenizer, all training texts will be encoded into raw bytes first (normally in UTF-8). Next, we will perform the BPE algorithm to find the most frequently appeared pairs to merge. We will repeat this step until we reach the desired vocabulary size. Finally, we will create the final vocabulary dictionary and all merge rules. Those two things will be stored for future encoding and decoding tasks.
+Explore, compare, and implement the Byte-level Byte Pair Encoding (BBPE) tokenizer to demonstrate its efficiency in large language models (LLMs) by balancing vocabulary size and tokenization efficiency.
+
+Main Objectives
+- Comparative Analysis: Analyzed multiple tokenization methods, including word-level, character-level, and byte-level tokenizers, highlighting the unique benefits and limitations of each approach in LLMs.
+- BBPE Algorithm Implementation: Demonstrated step-by-step implementation of the BPE and BBPE algorithms, from encoding raw UTF-8 bytes to iteratively merging frequently occurring pairs to build the final vocabulary.
+- Vocabulary and Merge Rule Creation: Built and stored the final vocabulary dictionary and merge rules, enabling efficient encoding and decoding for downstream LLM tasks.
+- LLM Optimization Insight: Showcased how BBPE achieves an optimal balance between vocabulary size and tokenization efficiency, addressing key challenges faced by LLMs.
 
 **Skills: Python, Nature Language Processing, Byte-level Byte Pair Encoding, Large Language Models**
 
